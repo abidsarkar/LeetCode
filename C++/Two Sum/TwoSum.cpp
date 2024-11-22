@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/two-sum/description/
+// we have 2 method at this moments. brute force 
 #include <iostream>
 #include <map>
 #include <vector>
