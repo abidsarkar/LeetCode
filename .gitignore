@@ -16,3 +16,5 @@ cmake-build-debug
 index.html
 launch.json
 tasks.json
+.idea
+CMake-Lists.txt
