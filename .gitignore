@@ -18,3 +18,4 @@ launch.json
 tasks.json
 .idea
 CMake-Lists.txt
+*.exe

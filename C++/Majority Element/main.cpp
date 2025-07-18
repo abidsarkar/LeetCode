@@ -26,7 +26,22 @@ int majorityElement(vector<int> &nums) {
     }
     return -1;
 }
-
+int mooresVoting(vector<int>& nums){
+    int freq =0, ans =0;
+    for (int i = 0; i <nums.size(); i++)
+    {
+        if(freq ==0){
+            ans = nums[i];
+        }
+        if(ans == nums[i]){
+            freq++;
+        }else{
+            freq--;
+        }
+    }
+    return ans;
+    
+}
 int main() {
     vector<int> vector1 = {3, 2, 3};
     int ans = majorityElement(vector1);
